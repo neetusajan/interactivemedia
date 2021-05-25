@@ -2,7 +2,7 @@
     display: grid; 
 }
 
-/* start flags sweden style */
+/* Start of Sweden flag */
 .flag-sweden {
     width: 800px;
     height: 500px;
@@ -29,10 +29,11 @@
     grid-column-end: span 3;
 
 }
- /*End flag sweden style*/
+ /*End of Sweden flag*/
+/*--------------------------------------------------------------*/
 
 
-/*Start flag Denmark style*/
+/* Start of Denmark flag */
 .flag-denmark {
   width: 850px;
   height: 700px;
@@ -57,10 +58,11 @@
   grid-column-start: 1;
   grid-column-end: span 3;
 }
-/*End flag Denmark style*/
+ /*End of Denmark flag*/
+/*--------------------------------------------------------------*/
 
 
-/*Start flag Finland style*/
+/* Start of Finaland flag */
 .flag-finland {
   width: 900px;
   height: 650px;
@@ -86,10 +88,11 @@
   grid-column-start: 1;
   grid-column-end: span 3;
 }
-/*End flag Finland style*/
+ /*End of Finaland flag*/
+/*--------------------------------------------------------------*/
 
 
-/*Start flag Iceland style*/
+/* Start of Iceland flag */
 .flag-iceland {
   width: 1250px;
   height: 900px;
@@ -132,16 +135,17 @@
   grid-column-end: span 5;
 }
 
-/*End flag Iceland stule */
+ /*End of Iceland flag*/
+/*--------------------------------------------------------------*/
 
 
-/*Start flag Neetu style*/
+/* Start of my own flag */
 .flag-neetu {
-  width: 1250px;
-  height: 900px;
+  width: 1260px;
+  height: 850px;
   border: 1px solid black;
-  grid-template-columns:450px 50px 250px 50px 450px;
-  grid-template-rows: 300px 50px 250px 50px 300px;
+  grid-template-columns: 500px 10px 500px 50px 200px;
+  grid-template-rows: 600px 50px 200px;
 }
 
 .flag-neetu div {
@@ -153,6 +157,10 @@
 }
 
 .neetu-white {
+  background-color: rgb(255, 255, 255);
+}
+
+.neetu-yellow {
   background-color: rgb(255, 180, 0);
 }
 
@@ -160,17 +168,12 @@
   background-color: rgb(234, 84, 85);
 }
 
-.neetu-whitespan1 {
+.neetu-yellowspan {
   background-color: rgb(255, 180, 0);
   grid-column-start: 1;
-  grid-column-end: span 2;
-}
-
-.neetu-whitespan2 {
-  background-color: rgb(255, 180, 0);
-  grid-column-start: 4;
   grid-column-end: span 5;
 }
+
 
 .neetu-redspan {
   background-color: rgb(234, 84, 85);
@@ -178,7 +181,6 @@
   grid-column-end: span 5;
 }
 
-/*End flag Neetu style */
-
-
+ /*End of my own flag*/
+ /*--------------------------------------------------------------*/
 

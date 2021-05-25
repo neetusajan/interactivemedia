@@ -1,0 +1,184 @@
+.flag {
+    display: grid; 
+}
+
+/* start flags sweden style */
+.flag-sweden {
+    width: 800px;
+    height: 500px;
+    grid-template-rows: 200px 100px 200px;
+    grid-template-columns: 250px 100px 450px;
+}
+
+.flag-sweden div {
+/*    border: 0px solid black;*/
+}
+
+.sweden-blue {
+    background-color: rgb(0, 106, 168);
+
+}
+
+.sweden-yellow {
+    background-color: rgb(254, 205, 0);
+}
+
+.sweden-yellowspan {
+    background-color: rgb(254, 205, 0);
+    grid-column-start: 1;
+    grid-column-end: span 3;
+
+}
+ /*End flag sweden style*/
+
+
+/*Start flag Denmark style*/
+.flag-denmark {
+  width: 850px;
+  height: 700px;
+  grid-template-columns:300px 100px 450px;
+  grid-template-rows: 300px 100px 300px;
+}
+
+.flag-denmark div {
+/*  border: 1px solid black;*/
+}
+
+.denmark-red {
+  background-color: rgb(199, 4, 45);
+}
+
+.denmark-white {
+  background-color: rgb(255, 255, 255);
+}
+
+.denmark-whitespan {
+  background-color: rgb(255, 255, 255);
+  grid-column-start: 1;
+  grid-column-end: span 3;
+}
+/*End flag Denmark style*/
+
+
+/*Start flag Finland style*/
+.flag-finland {
+  width: 900px;
+  height: 650px;
+  border: 1px solid black;
+  grid-template-columns:250px 150px 500px;
+  grid-template-rows: 250px 150px 250px;
+}
+
+.flag-finland div {
+/*  border: 1px solid black;*/
+}
+
+.finland-white {
+  background-color: rgb(255, 255, 255);
+}
+
+.finland-blue {
+  background-color: rgb(0, 53, 128);
+}
+
+.finland-bluespan {
+  background-color: rgb(0, 53, 128);
+  grid-column-start: 1;
+  grid-column-end: span 3;
+}
+/*End flag Finland style*/
+
+
+/*Start flag Iceland style*/
+.flag-iceland {
+  width: 1250px;
+  height: 900px;
+  border: 1px solid black;
+  grid-template-columns:350px 50px 100px 50px 700px;
+  grid-template-rows: 350px 50px 100px 50px 350px;
+}
+
+.flag-iceland div {
+/*  border: 1px solid black;*/
+}
+
+.iceland-blue {
+  background-color: rgb(2, 82, 156);
+}
+
+.iceland-white {
+  background-color: rgb(255, 255, 255);
+}
+
+.iceland-red {
+  background-color: rgb(220, 30, 53);
+}
+
+.iceland-whitespan1 {
+  background-color: rgb(255, 255, 255);
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.iceland-whitespan2 {
+  background-color: rgb(255, 255, 255);
+  grid-column-start: 4;
+  grid-column-end: span 5;
+}
+
+.iceland-redspan {
+  background-color: rgb(220, 30, 53);
+  grid-column-start: 1;
+  grid-column-end: span 5;
+}
+
+/*End flag Iceland stule */
+
+
+/*Start flag Neetu style*/
+.flag-neetu {
+  width: 1250px;
+  height: 900px;
+  border: 1px solid black;
+  grid-template-columns:450px 50px 250px 50px 450px;
+  grid-template-rows: 300px 50px 250px 50px 300px;
+}
+
+.flag-neetu div {
+/*  border: 1px solid black;*/
+}
+
+.neetu-blue {
+  background-color: rgb(0,0,128);
+}
+
+.neetu-white {
+  background-color: rgb(255, 180, 0);
+}
+
+.neetu-red {
+  background-color: rgb(234, 84, 85);
+}
+
+.neetu-whitespan1 {
+  background-color: rgb(255, 180, 0);
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.neetu-whitespan2 {
+  background-color: rgb(255, 180, 0);
+  grid-column-start: 4;
+  grid-column-end: span 5;
+}
+
+.neetu-redspan {
+  background-color: rgb(234, 84, 85);
+  grid-column-start: 1;
+  grid-column-end: span 5;
+}
+
+/*End flag Neetu style */
+
+
+

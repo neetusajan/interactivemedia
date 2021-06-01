@@ -6,9 +6,11 @@
 	src: url('Font/Bespoke-IvSaXyZg26.woff') format('woff');
 	src: url('Font/Bespoke-IvSaXyZg26.ttf')  format('truetype'), 
 }
+
 body{
 	background-color: black;
 }
+
 .fonts{
 	position: relative;
 	font-size: 4vw;
@@ -16,10 +18,10 @@ body{
 	color: whitesmoke;
 }
 
-	/*-----------adobe font- "slide" styling-----------*/
+/*-----------adobe font- "slide" styling-----------*/
 
 .adobe {
-	font-family: 'flegrei', sans-serif;
+	font-family: 'flegrei', cursive, monospace, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -38,11 +40,10 @@ body{
 	animation: slide 2s infinite
 }
 
-
-	/*----------google font- "dissapear" styling----------*/
+/*----------google font- "dissapear" styling----------*/
 
 .google {
-	font-family: 'Sigmar One', sans-serif;
+	font-family: 'Sigmar One', cursive, monospace, sans-serif;
 
 }
 
@@ -52,12 +53,10 @@ body{
 	color:  yellow;
 }
 
-
-
-	/*----self-hosted font from metaflop- "jump" styling-----*/
+/*----self-hosted font from metaflop- "jump" styling-----*/
 
 .hosted {
-	font-family:'MyWebFont', cursive; 
+	font-family:'MyWebFont', cursive, monospace, sans-serif; 
 }
 
 @keyframes jump{
@@ -74,9 +73,8 @@ body{
 	}
 }
 
-
 .hosted:hover {
-    animation: jump 1s infinite;
+	animation: jump 1s infinite;
 	color:  lightblue;
 }
 

@@ -12,7 +12,7 @@ body{
 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 	margin-top: 8%;
 	margin-right: 8%;
-	transform: skew(-15deg);
+	transform: skew(-10deg);
 }
 
 .grid {
@@ -27,7 +27,7 @@ body{
 .grid-item {
 	width: 100%;
 	height: 100%;
-	/*border: 1px solid gray;*/
+	border: 1px solid gray;
 }
 
 /*.grid-item:nth-child(even) {
@@ -38,7 +38,7 @@ body{
 
 .fill-box {
 	background-color: pink; 
-	box-shadow: 5px 5px darkblue;
+	box-shadow: 8px 5px darkblue;
 	box-sizing: border-box;
 
 }

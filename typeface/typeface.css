@@ -27,14 +27,7 @@ body{
 .grid-item {
 	width: 100%;
 	height: 100%;
-	/*border: 1px solid gray;*/
 }
-
-/*.grid-item:nth-child(even) {
-	transform: scale(.75);
-}*/
-
-
 
 .fill-box {
 	background-color: pink; 

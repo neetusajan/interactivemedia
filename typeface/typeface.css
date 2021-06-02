@@ -27,7 +27,7 @@ body{
 .grid-item {
 	width: 100%;
 	height: 100%;
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
 }
 
 /*.grid-item:nth-child(even) {

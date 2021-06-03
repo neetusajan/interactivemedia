@@ -14,14 +14,14 @@ font-size: 13px;
 
 .grid2 {
     display: grid;
-    grid-template-columns: 20% 35% 45%; 
-    grid-template-rows: 20% 30% 10% 37% 3%; 
+    grid-template-columns: 20% 40% 40%; 
+    grid-template-rows: 20% 30% 10% 35% 5%; 
     border: 1px solid black;
     position: absolute;
 }
 
 .grid2 div {
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 
 
@@ -49,9 +49,9 @@ h1{
     font-family: bc-alphapipe, sans-serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 18vh;
+
+    font-size: 10vw;
     text-align: right;
-    line-height: 2vw;
     writing-mode: vertical-rl; 
     transform: rotate(180deg);
 }
@@ -67,33 +67,33 @@ h3{
     font-family: bc-alphapipe, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 4em;
+    font-size: 4vw;
 }
 h4{
     font-family: bc-alphapipe, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 2.5vw;
 }
 h5{
     font-family: bc-alphapipe, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 h6{
     font-family: bc-alphapipe, sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.5vw;
 }
 
 p {
     font-family: sofia-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1em;
+    font-size: 1vw;
 }
 
 /*First page-----------------------------------*/
@@ -104,9 +104,7 @@ p {
 .theorizing {
     grid-row-start: 1; 
     grid-row-end: span 2;
-    margin-top: 2em;
-    margin-bottom: 10em;
-    margin-left: 2em;
+    margin-bottom: 200px;
 }
 
 /*location and place*/
@@ -116,6 +114,7 @@ p {
     line-height: 1em;
     margin-right: 2em;
     color: white;
+    margin-bottom: 200px;
 }
 
 
@@ -148,8 +147,9 @@ p {
 }
 
 .about {
-    text-align: center;
+    text-align: left;
     color: white;
+    margin-right: 100px;
 }
 
 .centerleft {
@@ -164,10 +164,6 @@ p {
     color: white;
 }
 
-
-
-
-
 .centerright {
     text-align: right;
     line-height: 5px;
@@ -176,13 +172,14 @@ p {
 }
 
 .footer {
+    text-align: bottom;
     color: white;
+
 }
 
 p {
     line-height: 20px;
 }
-
 
 @media (max-width:991px) {
     body {

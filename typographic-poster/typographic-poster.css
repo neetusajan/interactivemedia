@@ -3,10 +3,9 @@
 body{
     /*background: rgb(226,122,22);*/
     background: linear-gradient(180deg, rgba(226,122,22,1) 0%, rgba(225,76,36,1) 11%, rgba(212,49,96,1) 25%, rgba(162,0,107,1) 46%, rgba(101,0,91,1) 74%, rgba(81,0,86,1) 100%) fixed;
- 
-font-size: 13px;
+    font-size: 13px;
     width:100%;
-    height:100%;
+    height:105%;
     position: relative;
 
 }
@@ -15,7 +14,7 @@ font-size: 13px;
 .grid2 {
     display: grid;
     grid-template-columns: 20% 40% 40%; 
-    grid-template-rows: 20% 30% 10% 35% 5%; 
+    grid-template-rows: 20% 30% 10% 40% 5%; 
     border: 1px solid black;
     position: absolute;
 }
@@ -47,8 +46,9 @@ font-size: 13px;
 h1{
     color: black;
     font-family: bc-alphapipe, sans-serif;
-    font-weight: 600;
+    font-weight: 100;
     font-style: italic;
+    text-decoration: underline;
 
     font-size: 10vw;
     text-align: right;
@@ -57,6 +57,7 @@ h1{
 }
 
 h2 {
+    text-decoration: underline;
     font-family: bc-alphapipe, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -68,6 +69,7 @@ h3{
     font-weight: 300;
     font-style: normal;
     font-size: 4vw;
+    text-decoration: underline;
 }
 h4{
     font-family: bc-alphapipe, sans-serif;
@@ -83,17 +85,20 @@ h5{
 }
 
 h6{
+    margin:0;
+    line-height: 10px;
     font-family: bc-alphapipe, sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 1.5vw;
+
 }
 
 p {
     font-family: sofia-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 /*First page-----------------------------------*/
@@ -123,11 +128,13 @@ p {
 /*morning program*/
 
 .left{
+    margin-top: 3em;
     text-align: right;
     grid-row-start: 3; 
     grid-row-end: span 5;
     writing-mode: vertical-lr; 
     transform: rotate(180deg)
+
 }
 
 
@@ -136,12 +143,11 @@ p {
 .header {
     grid-column-start: 2; 
     grid-column-end: span 3;
-    line-height: 0em;
     margin-right: 2em;
 }
 
 .session {
-    margin-top: -8em;
+    margin-top: -10em;
     text-align: right;
     margin-bottom: none;
 }
@@ -154,27 +160,36 @@ p {
 
 .centerleft {
     text-align: top;
-    line-height: 2em;
 }
 
 
 .time {
     text-align: top;
-    line-height: 0em;
+    line-height: 1em;
     color: white;
 }
 
 .centerright {
     text-align: right;
-    line-height: 5px;
     margin-right: 2em;
     color: white;
 }
 
 .footer {
-    text-align: bottom;
+    font-size: 0.5vw;
+    text-align: center;
     color: white;
+}
+.letter-e {
+    margin-right: 2.5em;
+}
 
+.letter-t {
+    margin-left: 2.5em;
+}
+
+.the-web {
+    margin-top: 2.5em;
 }
 
 p {

@@ -1,8 +1,6 @@
 
 body{
 	padding: 100px;
-	background: linear-gradient(180deg, rgba(226,122,22,1) 0%, rgba(225,76,36,1) 11%, rgba(212,49,96,1) 25%, rgba(162,0,107,1) 37%, rgba(101,0,91,1) 53%, rgba(54,0,78,1) 75%, rgba(0,0,0,1) 100%) fixed;    
-
 }
 
 .letter {
@@ -38,13 +36,13 @@ body{
 
 }
 .fill {
-	background-color: #D9D9D9; 
+	background-color: black; 
 	box-sizing: border-box;
 
 }
 
 .border-top {
-	border: 10px ridge #D9D9D9;
+	border: 10px ridge black;
 	border-right: none; 
 	border-left: none; 
 	border-bottom: none;
@@ -52,14 +50,14 @@ body{
 }
 
 .border-bottom {
-	border: 10px double #D9D9D9;
+	border: 10px double black;
 	border-right: none; 
 	border-left: none; 
 	border-top: none;
 	box-sizing: border-box;
 }
 .border-topb {
-	border: 10px double #D9D9D9;
+	border: 10px double black;
 	border-right: none; 
 	border-left: none; 
 	border-bottom: none;
@@ -67,7 +65,7 @@ body{
 }
 
 .border-bottomb {
-	border: 10px ridge #D9D9D9;
+	border: 10px ridge black;
 	border-right: none; 
 	border-left: none; 
 	border-top: none;
@@ -75,35 +73,35 @@ body{
 
 }
 .border-bottomright {
-	border: 10px double #D9D9D9;
+	border: 10px double black;
 	border-left: none; 
 	border-top: none;
 	box-sizing: border-box;
 }
 
 .border-right {
-	border: 10px double #D9D9D9;
+	border: 10px double black;
 	border-left: none; 
 	border-top: none; 
 	border-bottom: none;
 	box-sizing: border-box;
 }
 .border-topright {
-	border: 10px double #D9D9D9;
+	border: 10px double black;
 	border-left: none; 
 	border-bottom: none;
 	box-sizing: border-box;
 }
 
 .border-topleft {
-	border: 10px ridge #D9D9D9;
+	border: 10px ridge black;
 	border-right: none; 
 	border-bottom: none;
 	box-sizing: border-box;
 }
 
 .border-right {
-	border: 10px double #D9D9D9;
+	border: 10px double black;
 	border-left: none; 
 	border-top: none; 
 	border-bottom: none;
@@ -111,7 +109,7 @@ body{
 }
 
 .border-left {
-	border: 10px ridge #D9D9D9;
+	border: 10px ridge black;
 	border-right: none; 
 	border-top: none; 
 	border-bottom: none;
@@ -119,7 +117,7 @@ body{
 }
 
 .border-bottomleft {
-	border: 10px ridge #D9D9D9;
+	border: 10px ridge black;
 	border-right: none; 
 	border-top: none;
 	box-sizing: border-box;
@@ -127,28 +125,28 @@ body{
 
 
 .lineD{ 
-	border-left: 10px double #D9D9D9; 
+	border-left: 10px double black; 
 	transform: skew(33deg);
 	box-sizing: border-box;
 
 }
 
 .lineD2{ 
-	border-left: 10px double #D9D9D9; 
+	border-left: 10px double black; 
 	transform: skew(-33deg);
 	box-sizing: border-box;
 
 }
 
 .line-right{ 
-	border-left: 17px double #D9D9D9; 
+	border-left: 17px double black; 
 	transform: skew(33deg);
 	box-sizing: border-box;
 
 }
 
 .line-left{
-	border-left: 17px solid #D9D9D9; 
+	border-left: 17px solid black; 
 	transform: skew(-33deg);
 	box-sizing: border-box;
 }

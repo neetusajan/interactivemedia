@@ -121,7 +121,7 @@ a {
 .location {
     text-align: right;
     line-height: 1em;
-    margin-right: 2em;
+    margin-right: 4em;
     color: #B4B7BF;
     margin-bottom: 200px;
 }
@@ -146,7 +146,7 @@ a {
 .header {
     grid-column-start: 2; 
     grid-column-end: span 3;
-    margin-right: 2em;
+    margin-right: 4em;
 }
 
 .session {
@@ -173,7 +173,7 @@ a {
 
 .centerright {
     text-align: right;
-    margin-right: 2em;
+    margin-right: 4em;
     color: white;
 }
 

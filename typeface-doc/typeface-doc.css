@@ -8,8 +8,6 @@ body {
     margin: 100px; /* Add spacing around the entire page */ 
     font-size: 12px; /* Setting baseline font size */ 
     font-style: "font-family:'Courier New";
-    background: linear-gradient(180deg, rgba(226,122,22,1) 0%, rgba(225,76,36,1) 11%, rgba(212,49,96,1) 25%, rgba(162,0,107,1) 37%, rgba(101,0,91,1) 53%, rgba(54,0,78,1) 75%, rgba(0,0,0,1) 100%) fixed;    
-
 }
 
 /* Start of text sizes */

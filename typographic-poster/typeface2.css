@@ -126,27 +126,27 @@
 	transform: skew(20deg);
 	box-sizing: border-box;
 
- }
+}
 
- .lineD2{ 
+.lineD2{ 
 	border-left: 9px double white; 
 	transform: skew(-18deg);
 	box-sizing: border-box;
 
- }
+}
 
 .line-right{ 
 	border-left: 17px double white; 
 	transform: skew(33deg);
 	box-sizing: border-box;
 
- }
+}
 
-  .line-left{
- 	border-left: 17px solid white; 
+.line-left{
+	border-left: 17px solid white; 
 	transform: skew(-33deg);
 	box-sizing: border-box;
- }
+}
 
 .letter-e {
 	margin-right: 100px;

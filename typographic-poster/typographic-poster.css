@@ -1,7 +1,6 @@
 
 
 body{
-    /*background: rgb(226,122,22);*/
     background: linear-gradient(180deg, rgba(226,122,22,1) 0%, rgba(225,76,36,1) 11%, rgba(212,49,96,1) 25%, rgba(162,0,107,1) 46%, rgba(101,0,91,1) 74%, rgba(81,0,86,1) 100%) fixed;
     font-size: 13px;
     width:100%;
@@ -15,8 +14,8 @@ body{
     display: grid;
     grid-template-columns: 20% 40% 40%; 
     grid-template-rows: 20% 30% 10% 40% 5%; 
-    border: 1px solid black;
-    position: absolute;
+    /*border: 1px solid black;*/
+    /*position: absolute;*/
 }
 
 /*to view grid */
@@ -48,11 +47,11 @@ body{
 h1{
     color: black;
     font-family: bc-alphapipe, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
     text-decoration: underline navy;
     font-size: 9vw;
-    text-align: right;
+    /*text-align: right;*/
     writing-mode: vertical-rl; 
     transform: rotate(180deg);
 }
@@ -100,7 +99,7 @@ p {
     font-family: sofia-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 /*First page-----------------------------------*/
@@ -111,7 +110,7 @@ p {
 .theorizing {
     grid-row-start: 1; 
     grid-row-end: span 2;
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 /*location and place*/
@@ -138,7 +137,6 @@ p {
     transform: rotate(180deg)
 
 }
-
 
 /*header on second page */
 
@@ -178,8 +176,7 @@ p {
 }
 
 .footer {
-    font-size: 0.5vw;
-    text-align: center;
+    size: 0.5vw;
     color: white;
 }
 .letter-e {
@@ -193,19 +190,6 @@ p {
 .the-web {
     margin-top: 2.5em;
 }
-
-@media (max-width:991px) {
-    body {
-        font-size: 6px;
-    }
-}
-
-
-
-
-
-
-
 
 
 

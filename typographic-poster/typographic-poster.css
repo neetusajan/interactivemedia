@@ -102,6 +102,9 @@ p {
     font-size: 1.25vw;
 }
 
+a {
+    size: 1.5vw;
+}
 /*First page-----------------------------------*/
 
 
@@ -147,9 +150,8 @@ p {
 }
 
 .session {
-    margin-top: -10em;
+    margin-top: -9.5vw;
     text-align: right;
-    margin-bottom: none;
 }
 
 .about {
@@ -191,9 +193,9 @@ p {
     margin-top: 2.5em;
 }
 
-
-
-
+a.two:link {color:navy;}
+a.two:visited {color: black;}
+a.two:hover {font-size:120%;}
 
 
 

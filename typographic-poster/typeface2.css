@@ -5,7 +5,6 @@
 	width:9vw; /*resize as you see fit */
 	height:19vw; /*resize as you see fit */
 	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-	border:0px solid #000; /*feel free to remove or hide this rule */
 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 	margin-top: 3%;
 	margin-right: 3%;

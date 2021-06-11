@@ -1,8 +1,5 @@
-
-@font-face {
-	font-family: 'MyWebFont';
-	src: url('Font/Bespoke-IvSaXyZg26.woff') format('woff');
-	src: url('Font/Bespoke-IvSaXyZg26.ttf')  format('truetype'), 
+*{
+margin: 1.5vw;
 }
 
 body{
@@ -10,9 +7,10 @@ body{
 	background-color: black;
 	font-family: "courier";
 	position: relative;
-	font-size: 4vw;
+	font-size: 1.5vw;
 	text-align: center;
 }
+
 
 
 

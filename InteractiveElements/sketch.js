@@ -10,9 +10,9 @@ function setup() {
 
   //button syyle guide
 
-  button.style("font-size", "1.2vw");
+  button.style("font-size", "1.4vw");
   button.style("background-color", "black");
-  button.style("color: white");
+  button.style("color: gray");
   button.style("font-family", "copperplate");
   button.center(TOP);
   //indicate reset sketch when button is clicked

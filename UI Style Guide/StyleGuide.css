@@ -1,23 +1,284 @@
-	* {
-		padding: 25px;
-		align-content: 
-	}
 
-	.dot1 {
-		height: 2vw;
-		width: 2vw;
-		border-radius: 100%;
-		display: inline-block;
-		background-color: #0A1550; 
-	}
+* {
+	font-size: 12px; 
+	padding: 1vw;
+	background-color: black;
+	color: #E0E0E0;
+	font-family: urbane-rounded,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+/*colours*/ 
+/*primary colours*/ 
+.p1 {
+	height: 8vw;
+	width: 8vw;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #0A1550; 
+	margin-right: 5%;
+	border: 1px solid gray;
 
-	.dot2 {
-		height: 2vw;
-		width: 2vw;
-		border-radius: 100%;
-		display: inline-block;
-		background-color: #7A93A8; 
-	}
+}
+
+.p2 {
+	height: 8vw;
+	width: 8vw;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #7A93A8; 
+	margin-right: 5%;
+	border: 1px solid gray;
+}
+
+.p3 {
+	height: 8vw;
+	width: 8vw;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #717486; 
+	margin-right: 5%;
+	border: 1px solid gray;
+}
+/*secondary colours*/ 
+.s1 {
+	height: 8vw;
+	width: 8vw;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #EBAFAF; 
+	margin-right: 5%;
+	border: 1px solid gray;
+}
+
+.s2 {
+	height: 8vw;
+	width: 8vw;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #EA5858; 
+	margin-right: 5%;
+	border: 1px solid gray;
+}
+
+/*UI text elements colours*/ 
+.u1 {
+	height: 8vw;
+	width: 8vw;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #000000; 
+	margin-right: 5%;
+	border: 1px solid gray;
+}
+
+.u2 {
+	height: 8vw;
+	width: 8vw;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #FFFFFF; 
+	margin-right: 5%;
+	border: 1px solid gray;
+}
+/*hexcode placement */
+.hexcode {
+	font-size: 1.5vw;
+	margin-right: 8%;
+}
+
+/*text sizes */
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	color: #d6d6b6;
+}
+
+h2 {
+	font-size: 2em;
+	color: gray;
+}
+
+h3{
+	font-size: 9em;
+}
+
+h4{
+	font-size: 7em;
+}
+
+h5{
+	font-size: 4em;
+}
+
+h6 {
+	font-size: 2em;
+}
+
+h6:hover {
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+p{
+	font-size: 2em;
+}
 
 
-		s
+.font {
+	font-family: montserrat,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4em;
+}
+
+
+/*Button states */
+/*inactive state*/
+.button1 {
+	background-color:;
+	border: 1px solid gray;
+	color: gray;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+/*active state*/
+.button2 {
+	background-color:;
+	border: 1px solid #7A93A8;
+	color: white;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+/*hover state*/
+.button3 {
+	background-color:;
+	border: 1px solid #7A93A8;
+	color: white;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+
+.button3:hover {
+	background-color:#0A1550;
+	border: 1px solid #7A93A8;
+	color: white;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+
+
+/*input states*/
+/*inactive state*/
+.button4 {
+	background-color:;
+	border: 1px solid gray;
+	color: gray;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+/*active state*/
+.button5 {
+	background-color:;
+	border: 1px solid #7A93A8;
+	color: white;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+
+/*completed state*/
+.button6 {
+	background-color:;
+	border: 1px solid white;
+	color: white;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+/*error state*/
+.button7 {
+	background-color:;
+	border: 1px solid red;
+	color: white;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+/*success state*/
+.button8 {
+	background-color:;
+	border: 1px solid green;
+	color: white;
+	padding: 2vw 3vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2em;
+	margin-right: 5vw;
+	cursor: pointer;
+}
+
+
+.message {
+	font-size: 1vw;
+	margin-right: 8vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

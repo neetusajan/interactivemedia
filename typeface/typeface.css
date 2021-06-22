@@ -30,8 +30,8 @@ body{
 }
 
 .fill-box {
-	background-color: pink; 
-	box-shadow: 8px 5px black;
+	background-color: #6885AC; 
+	box-shadow: 12px 5px black;
 	box-sizing: border-box;
 
 }
@@ -42,7 +42,7 @@ body{
 }
 
 .border-top {
-	border: 10px ridge black;
+	border: 12px ridge black;
 	border-right: none; 
 	border-left: none; 
 	border-bottom: none;
@@ -50,14 +50,14 @@ body{
 }
 
 .border-bottom {
-	border: 10px double black;
+	border: 12px double black;
 	border-right: none; 
 	border-left: none; 
 	border-top: none;
 	box-sizing: border-box;
 }
 .border-topb {
-	border: 10px double black;
+	border: 12px double black;
 	border-right: none; 
 	border-left: none; 
 	border-bottom: none;
@@ -65,7 +65,7 @@ body{
 }
 
 .border-bottomb {
-	border: 10px ridge black;
+	border: 12px ridge black;
 	border-right: none; 
 	border-left: none; 
 	border-top: none;
@@ -73,43 +73,36 @@ body{
 
 }
 .border-bottomright {
-	border: 10px double black;
+	border: 12px double black;
 	border-left: none; 
 	border-top: none;
 	box-sizing: border-box;
 }
 
 .border-right {
-	border: 10px double black;
+	border: 12px double black;
 	border-left: none; 
 	border-top: none; 
 	border-bottom: none;
 	box-sizing: border-box;
 }
 .border-topright {
-	border: 10px double black;
+	border: 12px double black;
 	border-left: none; 
 	border-bottom: none;
 	box-sizing: border-box;
 }
 
 .border-topleft {
-	border: 10px ridge black;
+	border: 12px ridge black;
 	border-right: none; 
 	border-bottom: none;
 	box-sizing: border-box;
 }
 
-.border-right {
-	border: 10px double black;
-	border-left: none; 
-	border-top: none; 
-	border-bottom: none;
-	box-sizing: border-box;
-}
 
 .border-left {
-	border: 10px ridge black;
+	border: 12px ridge black;
 	border-right: none; 
 	border-top: none; 
 	border-bottom: none;
@@ -117,7 +110,7 @@ body{
 }
 
 .border-bottomleft {
-	border: 10px ridge black;
+	border: 12px ridge black;
 	border-right: none; 
 	border-top: none;
 	box-sizing: border-box;
@@ -125,28 +118,28 @@ body{
 
 
 .lineD{ 
-	border-left: 10px double black; 
-	transform: skew(33deg);
+	border-left: 12px double black; 
+	transform: skew(29deg);
 	box-sizing: border-box;
 
 }
 
 .lineD2{ 
-	border-left: 10px double black; 
-	transform: skew(-33deg);
+	border-left: 12px double black; 
+	transform: skew(-29deg);
 	box-sizing: border-box;
 
 }
 
 .line-right{ 
-	border-left: 10px double black; 
+	border-left: 12px double black; 
 	transform: skew(33deg);
 	box-sizing: border-box;
 
 }
 
 .line-left{
-	border-left: 10px solid black; 
+	border-left: 12px solid black; 
 	transform: skew(-33deg);
 	box-sizing: border-box;
 }

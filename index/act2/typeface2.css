@@ -1,0 +1,167 @@
+
+
+.letter {
+
+	width:9vw; /*resize as you see fit */
+	height:19vw; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+	margin-top: 3%;
+	margin-right: 3%;
+	transform: skew(-10deg);
+}
+
+.grid {
+	position: absolute;
+	display: grid;
+	grid-template-columns: repeat(10,10%); 
+	grid-template-rows: repeat(10, 10%);
+	width:100%; 
+	height: 100%; 
+}
+
+.grid-item {
+	width: 100%;
+	height: 100%;
+}
+
+.fill-box {
+	background-color: navy; 
+	box-shadow: 8px 4px black;
+	box-sizing: border-box;
+
+}
+.fill {
+	background-color: white; 
+	box-sizing: border-box;
+
+}
+
+.border-top {
+	border: 9px ridge white;
+	border-right: none; 
+	border-left: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-bottom {
+	border: 9px double white;
+	border-right: none; 
+	border-left: none; 
+	border-top: none;
+	box-sizing: border-box;
+}
+.border-topb {
+	border: 9px double white;
+	border-right: none; 
+	border-left: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-bottomb {
+	border: 9px ridge white;
+	border-right: none; 
+	border-left: none; 
+	border-top: none;
+	box-sizing: border-box;
+	
+}
+.border-bottomright {
+	border: 9px double white;
+	border-left: none; 
+	border-top: none;
+	box-sizing: border-box;
+}
+
+.border-right {
+	border: 9px double white;
+	border-left: none; 
+	border-top: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+.border-topright {
+	border: 9px double white;
+	border-left: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-topleft {
+	border: 9px ridge white;
+	border-right: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-right {
+	border: 9px double white;
+	border-left: none; 
+	border-top: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-left {
+	border: 9px ridge white;
+	border-right: none; 
+	border-top: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-bottomleft {
+	border: 9px ridge white;
+	border-right: none; 
+	border-top: none;
+	box-sizing: border-box;
+}
+
+
+.lineD{ 
+	border-left: 9px double white; 
+	transform: skew(20deg);
+	box-sizing: border-box;
+
+}
+
+.lineD2{ 
+	border-left: 9px double white; 
+	transform: skew(-18deg);
+	box-sizing: border-box;
+
+}
+
+.line-right{ 
+	border-left: 17px double white; 
+	transform: skew(33deg);
+	box-sizing: border-box;
+
+}
+
+.line-left{
+	border-left: 17px solid white; 
+	transform: skew(-33deg);
+	box-sizing: border-box;
+}
+
+.letter-e {
+	margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

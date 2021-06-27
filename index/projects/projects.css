@@ -1,0 +1,73 @@
+
+*{
+    cursor: url(../images/cursor.png),auto;
+}
+
+body{
+    padding: none;
+    background-image: radial-gradient(circle at bottom right, rgba(255,255,255,0), rgba(255,255,255) 100%);
+    animation: rainbow 50s infinite;
+    font-size: 12px;
+    cursor: url(images/cursor.png),auto;
+}
+
+.rainbow{
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@keyframes rainbow {
+    0%, 100% { background-color: #e7baff; }
+    16.66% { background-color:  #ffde85; }
+    33.33% { background-color: #e4ffe3; }
+    50% { background-color: #ffe3ec; }
+    66.66% { background-color: #ffeed9; }
+    83.33% { background-color: #d9fffc; }
+}
+
+
+
+p{
+    font-size: 1.5vw;
+    text-align: left;
+    font-family: calder-dark-outline,sans-serif;
+    font-weight: 400;
+}
+
+p:hover{
+    font-size: 1.5vw;
+    text-decoration: none;
+    text-align: left;
+    font-family: calder-dark,sans-serif;
+    font-weight: 400;
+}
+
+a{
+    padding: 5% 5%;
+    color:black;
+    text-decoration: none;
+}
+
+
+h1:hover{
+    font-size: 4vw;
+    text-align: center;
+    font-family: calder-dark-outline,sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 4vw;
+    padding-top: 4vw;
+    text-decoration: none;
+    text-align: center;
+    font-family: calder-dark,sans-serif;
+    font-weight: 400;
+}
+
+

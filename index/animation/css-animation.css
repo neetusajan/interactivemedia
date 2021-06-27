@@ -1,0 +1,90 @@
+
+/*self-hosted font from metaflop*/
+
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('Font/Bespoke-IvSaXyZg26.woff') format('woff');
+	src: url('Font/Bespoke-IvSaXyZg26.ttf')  format('truetype'), 
+}
+
+body{
+	background-color: black;
+}
+
+.fonts{
+	position: relative;
+	font-size: 4vw;
+	text-align: center;
+	color: whitesmoke;
+}
+
+/*-----------adobe font- "slide" styling-----------*/
+
+.adobe {
+	font-family: 'flegrei', cursive, monospace, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@keyframes slide {
+	from{
+		transform: translate(-300px);
+	}
+	to{
+		transform: translate(300px);
+	}
+}
+
+.adobe:hover {
+	color:  red;
+	animation: slide 2s infinite
+}
+
+/*----------google font- "dissapear" styling----------*/
+
+.google {
+	font-family: 'Sigmar One', cursive, monospace, sans-serif;
+
+}
+
+.google:hover {
+	transition: opacity 4s; 
+	opacity: 20%;
+	color:  yellow;
+}
+
+/*----self-hosted font from metaflop- "jump" styling-----*/
+
+.hosted {
+	font-family:'MyWebFont', cursive, monospace, sans-serif; 
+}
+
+@keyframes jump{
+	0%{
+		transform: translateY(0);
+	}
+
+	50%{
+		transform: translateY(200px);
+	}
+
+	100%{
+		transform: translateY(-50px);
+	}
+}
+
+.hosted:hover {
+	animation: jump 1s infinite;
+	color:  lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+

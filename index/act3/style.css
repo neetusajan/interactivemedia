@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+canvas {
+  display: block;
+}
+
+p:hover{
+    font-size: 1vw;
+    text-align: right;
+    font-family: calder-dark-outline,sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-size: 1vw;
+    text-decoration: none;
+    text-align: right;
+    font-family: calder-dark,sans-serif;
+    font-weight: 400;
+}
+
+a{
+	padding: none;
+    color:white;
+    text-decoration: none;
+}

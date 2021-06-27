@@ -1,0 +1,147 @@
+
+body{
+	padding: 100px;
+}
+
+.letter {
+
+	width:200px; /*resize as you see fit */
+	height:300px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	border:0px solid #000; /*feel free to remove or hide this rule */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+	margin-top: 8%;
+	margin-right: 8%;
+	/*transform: skew(-2deg);*/
+}
+
+.grid {
+	position: absolute;
+	display: grid;
+	grid-template-columns: repeat(10,10%); 
+	grid-template-rows: repeat(10, 10%);
+	width:100%; 
+	height: 100%; 
+}
+
+.grid-item {
+	width: 100%;
+	height: 100%;
+}
+
+.fill-box {
+	background-color: #6885AC; 
+	box-shadow: 12px 5px black;
+	box-sizing: border-box;
+
+}
+.fill {
+	background-color: black; 
+	box-sizing: border-box;
+
+}
+
+.border-top {
+	border: 12px ridge black;
+	border-right: none; 
+	border-left: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-bottom {
+	border: 12px double black;
+	border-right: none; 
+	border-left: none; 
+	border-top: none;
+	box-sizing: border-box;
+}
+.border-topb {
+	border: 12px double black;
+	border-right: none; 
+	border-left: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-bottomb {
+	border: 12px ridge black;
+	border-right: none; 
+	border-left: none; 
+	border-top: none;
+	box-sizing: border-box;
+
+}
+.border-bottomright {
+	border: 12px double black;
+	border-left: none; 
+	border-top: none;
+	box-sizing: border-box;
+}
+
+.border-right {
+	border: 12px double black;
+	border-left: none; 
+	border-top: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+.border-topright {
+	border: 12px double black;
+	border-left: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-topleft {
+	border: 12px ridge black;
+	border-right: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+
+.border-left {
+	border: 12px ridge black;
+	border-right: none; 
+	border-top: none; 
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+.border-bottomleft {
+	border: 12px ridge black;
+	border-right: none; 
+	border-top: none;
+	box-sizing: border-box;
+}
+
+
+.lineD{ 
+	border-left: 12px double black; 
+	transform: skew(29deg);
+	box-sizing: border-box;
+
+}
+
+.lineD2{ 
+	border-left: 12px double black; 
+	transform: skew(-29deg);
+	box-sizing: border-box;
+
+}
+
+.line-right{ 
+	border-left: 12px double black; 
+	transform: skew(33deg);
+	box-sizing: border-box;
+
+}
+
+.line-left{
+	border-left: 12px solid black; 
+	transform: skew(-33deg);
+	box-sizing: border-box;
+}
+
+

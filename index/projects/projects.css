@@ -53,17 +53,31 @@ a{
     text-decoration: none;
 }
 
+h2:hover{
+    font-size: 2vw;
+    text-align: center;
+    font-family: calder-dark-outline,sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 2vw;
+    padding-bottom: 4vw;
+    text-decoration: none;
+    text-align: center;
+    font-family: calder-dark,sans-serif;
+    font-weight: 400;
+}
 
 h1:hover{
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     font-family: calder-dark-outline,sans-serif;
     font-weight: 400;
 }
 
 h1{
-    font-size: 4vw;
-    padding-top: 4vw;
+    font-size: 3vw;
     text-decoration: none;
     text-align: center;
     font-family: calder-dark,sans-serif;

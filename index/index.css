@@ -12,7 +12,7 @@ html {
 body{
     padding: none;
     background-image: radial-gradient(circle at bottom right, rgba(255,255,255,0), rgba(255,255,255) 100%);
-    animation: rainbow 50s infinite;
+    animation: rainbow 60s infinite;
     font-size: 12px;
 }
 
@@ -27,12 +27,12 @@ body{
 }
 
 @keyframes rainbow {
-    0%, 100% { background-color: #e7baff; }
-    16.66% { background-color:  #ffde85; }
-    33.33% { background-color: #e4ffe3; }
-    50% { background-color: #ffe3ec; }
-    66.66% { background-color: #ffeed9; }
-    83.33% { background-color: #d9fffc; }
+    0%, 100% { background-color: #ffabab; }
+    16.66% { background-color:  #ffb163; }
+    33.33% { background-color: #7dfff0; }
+    50% { background-color: #ff7d7d; }
+    66.66% { background-color: #709dff; }
+    83.33% { background-color: #ffd270; }
 }
 
 h1{

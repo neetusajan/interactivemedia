@@ -11,6 +11,12 @@ body{
     cursor: url(images/cursor.png),auto;
 }
 
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
 .rainbow{
   min-height: 100%;
   min-width: 100%;
@@ -54,14 +60,17 @@ a{
 }
 
 h2:hover{
-    font-size: 2vw;
+    color: gray;
+    font-size: 1.5vw;
     text-align: center;
     font-family: calder-dark-outline,sans-serif;
     font-weight: 400;
 }
 
 h2{
-    font-size: 2vw;
+    color: gray;
+    font-size: 1.5vw;
+    padding-top: 1vw;
     padding-bottom: 4vw;
     text-decoration: none;
     text-align: center;

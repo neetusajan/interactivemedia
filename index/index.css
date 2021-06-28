@@ -11,29 +11,40 @@ html {
 
 body{
     padding: none;
-    background-image: radial-gradient(circle at bottom right, rgba(255,255,255,0), rgba(255,255,255) 100%);
-    animation: rainbow 60s infinite;
+    background: linear-gradient(-45deg, #ffabab, #ffb163, #7dfff0, #ff7d7d, #709dff, #ffd270);
+    animation: rainbow 60s ease infinite;
+    background-size: 400% 400%;
     font-size: 12px;
 }
 
-.rainbow{
-  min-height: 100%;
-  min-width: 100%;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+/*@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}*/
 
 @keyframes rainbow {
-    0%, 100% { background-color: #ffabab; }
-    16.66% { background-color:  #ffb163; }
-    33.33% { background-color: #7dfff0; }
-    50% { background-color: #ff7d7d; }
-    66.66% { background-color: #709dff; }
-    83.33% { background-color: #ffd270; }
+
+  0% {
+    background-position: 0% 33.3%;
+  }
+  33.3% {
+    background-position: 66.6% 33.3%;
+  }
+  66.6% {
+    background-position: 100% 33.3%;
+  }
+  100% {
+    background-position: 0% 33.3%;
+  }
 }
+
 
 h1{
     color: black;
@@ -173,10 +184,6 @@ a{
   animation-duration:8s;
   background:#d9fffc;
 }
-
-
-
-
 
 @keyframes rise{
   0%{

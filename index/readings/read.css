@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
 }
+
+*{
+    cursor: url(../images/cursor.png),auto;
+}
+
 body {
     margin: 100px; /* Add spacing around the entire page */ 
     font-size: 12px; /* Setting baseline font size */ 

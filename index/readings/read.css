@@ -29,10 +29,8 @@ body {
 }
 
 /* Start of text sizes */
-h1 {
-    font-size: 3.5em;
-    text-align: left;
-}
+
+
 a{
     text-decoration: none;
     color: black;
@@ -58,6 +56,23 @@ p {
     font-size: 1.5em;
     line-height: 1.5em;
 }
+
+h1{
+    font-size: 3.5vw;
+    text-align: left;
+    text-decoration: none;
+    font-family: calder-dark-outline,sans-serif;
+    font-weight: 400;
+}
+
+h1:hover{
+    font-size: 3.5vw;
+     text-decoration: none;
+    text-align: left;
+    font-family: calder-dark,sans-serif;
+    font-weight: 400;
+}
+
 
 figcaption {
     font-size: 1.25em;

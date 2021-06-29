@@ -194,3 +194,18 @@ a{
     transform:translateX(-200px);
   }
 }
+
+@media (max-width: 991px) {
+    .process-template {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        margin: 40px;
+        font-size: 10px;
+    }
+    .process-template {
+        width: 100%;
+    }

@@ -27,13 +27,22 @@ body{
   left: 0;
 }
 
+.circle {
+  position: absolute;
+  border: solid 1.5px black;
+  width: 65px; 
+  height: 65px; 
+  border-radius: 50%;  
+  z-index: -1;
+}
+
 @keyframes rainbow {
-    0%, 100% { background-color: #e7baff; }
-    16.66% { background-color:  #ffde85; }
-    33.33% { background-color: #e4ffe3; }
-    50% { background-color: #ffe3ec; }
-    66.66% { background-color: #ffeed9; }
-    83.33% { background-color: #d9fffc; }
+    0%, 100% { background-color: #ffabab; }
+    16.66% { background-color:  #ffb163; }
+    33.33% { background-color: #7dfff0; }
+    50% { background-color: #ff7d7d; }
+    66.66% { background-color: #709dff; }
+    83.33% { background-color: #ffd270; }
 }
 
 
@@ -94,3 +103,126 @@ h1{
 }
 
 
+
+/*bubbles---------------------------*/
+
+}
+.bubbles{
+  position:absolute;
+  width:100%;
+  height: 100%;
+  z-index:0;
+  overflow:hidden;
+  top:0;
+  left:0;
+}
+
+.bubble{
+  position: absolute;
+  bottom:-100px;
+  width:40px;
+  height: 40px;
+  border-radius:50%;
+  opacity:0.3;
+  animation: rise 15s infinite ease-in;
+}
+
+
+
+.bubble:nth-child(1){
+  width:300px;
+  height:300px;
+  left:0%;
+  animation-duration:22s;
+  background:#e7baff;
+}
+
+.bubble:nth-child(2){
+  width:120px;
+  height:120px;
+  left:20%;
+  animation-duration:15s;
+  background:#ffde85;
+
+}
+.bubble:nth-child(3){
+  width:230px;
+  height:230px;
+  left:35%;
+  animation-delay:0s;
+  animation-duration:10s;
+  background:#e4ffe3;
+}
+.bubble:nth-child(4){
+  width:80px;
+  height:80px;
+  left:50%;
+  animation-delay:1s;
+  animation-duration:8s;
+  background:#ffe3ec;
+}
+
+.bubble:nth-child(5){
+  width:250px;
+  height:250px;
+  right:5%;
+  animation-delay:0s;
+  animation-duration:10s;
+  background:#e7baff;
+}
+
+.bubble:nth-child(6){
+  width:100px;
+  height:100px;
+  left:50%;
+  animation-duration:10s;
+  background:#ffde85;
+}
+
+.bubble:nth-child(7){
+  width:150px;
+  height:150px;
+  left:10%;
+  animation-duration:16s;
+  background:#e4ffe3;
+
+}
+.bubble:nth-child(8){
+  width:50px;
+  height:50px;
+  left:35%;
+  animation-delay:0s;
+  animation-duration:8s;
+  background:#ffe3ec;
+}
+.bubble:nth-child(9){
+  width:140px;
+  height:140px;
+  left:50%;
+  animation-delay:0s;
+  animation-duration:15s;
+  background:#ffeed9;
+}
+
+.bubble:nth-child(10){
+  width:300px;
+  height:300px;
+  right:5%;
+  animation-delay:0s;
+  animation-duration:20s;
+  background:#d9fffc;
+}
+
+@keyframes rise{
+  0%{
+    bottom:-300px;
+    transform:translateX(0);
+  }
+  50%{
+    transform:translate(100px);
+  }
+  100%{
+    bottom:1500px;
+    transform:translateX(-200px);
+  }
+}

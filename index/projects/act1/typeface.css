@@ -3,6 +3,8 @@ body{
 	padding: 100px;
 }
 
+
+
 .letter {
 
 	width:200px; /*resize as you see fit */
@@ -14,6 +16,7 @@ body{
 	margin-right: 8%;
 	/*transform: skew(-2deg);*/
 }
+
 
 .grid {
 	position: absolute;

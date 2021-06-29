@@ -9,8 +9,8 @@ jQuery(document).ready(function() {
   });
     
   setInterval(function(){
-    xp += ((mouseX - xp)/5);
-    yp += ((mouseY - yp)/5);
+    xp += ((mouseX - xp)/6);
+    yp += ((mouseY - yp)/6);
     $("#circle").css({left: xp +'px', top: yp +'px'});
   }, 20);
 

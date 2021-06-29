@@ -196,8 +196,8 @@ a{
 }
 
 @media (max-width: 991px) {
-    .process-template {
-        width: 60%;
+    .rainbow {
+        width: 80%;
     }
 }
 

@@ -1,0 +1,128 @@
+
+/* Move all CSS to a stylesheet */
+* { /* Remove default browser spacing */
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    cursor: url(../images/cursor.png),auto;
+}
+
+body {
+    margin: 100px; /* Add spacing around the entire page */ 
+    font-size: 12px; /* Setting baseline font size */ 
+    font-family: urbane-rounded,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-image: radial-gradient(circle at bottom right, rgba(255,255,255,0), rgba(255,255,255) 100%);
+    animation: rainbow 50s infinite;
+}
+
+@keyframes rainbow {
+    0%, 100% { background-color: #e7baff; }
+    16.66% { background-color:  #ffde85; }
+    33.33% { background-color: #e4ffe3; }
+    50% { background-color: #ffe3ec; }
+    66.66% { background-color: #ffeed9; }
+    83.33% { background-color: #d9fffc; }
+}
+
+.circle {
+  position: absolute;
+  border: solid 1.5px black;
+  width: 65px; 
+  height: 65px; 
+  border-radius: 50%;  
+  z-index: -1;
+}
+
+
+/* Start of text sizes */
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: gray;
+}
+
+h3 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+h4 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+h1{
+    font-size: 3.5vw;
+    text-align: left;
+    text-decoration: none;
+    font-family: calder-dark-outline,sans-serif;
+    font-weight: 400;
+}
+
+h1:hover{
+    font-size: 3.5vw;
+     text-decoration: none;
+    text-align: left;
+    font-family: calder-dark,sans-serif;
+    font-weight: 400;
+}
+
+
+figcaption {
+    font-size: 1.25em;
+}
+/* End of text sizes */
+
+/* Start of spacing and layout */
+h2, p, figure, figcaption {
+    margin-bottom: 40px;
+}
+img {
+    margin-bottom: 10px;
+}
+.template {
+    width: 60%; /* Set the width of the template to 60% of the viewport. */
+    margin: auto; /* Center align the template by adding auto margins to the left and right */
+}
+
+.title {
+    margin-bottom: 100px; /* Add spacing to the bottom of the title div */
+}
+
+.section {
+    margin-bottom: 100px;
+}
+/* End of spacing and layout */
+
+/* Adding media queries for page to adapts to tablet and mobile devices */
+@media (max-width: 991px) {
+    .process-template {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        margin: 40px;
+        font-size: 10px;
+    }
+    .process-template {
+        width: 100%;
+    }
+}

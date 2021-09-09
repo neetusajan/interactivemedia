@@ -1,0 +1,11 @@
+
+/*aligns iframes to the center, sets bg as black, set a margin*/
+* { 
+    text-align:center;
+    position: relative;
+    background: black;
+}
+
+body {
+    margin: 100px; 
+}

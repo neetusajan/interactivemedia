@@ -1,0 +1,202 @@
+
+
+body{
+    background: linear-gradient(180deg, rgba(226,122,22,1) 0%, rgba(225,76,36,1) 11%, rgba(212,49,96,1) 25%, rgba(162,0,107,1) 46%, rgba(101,0,91,1) 74%, rgba(81,0,86,1) 100%) fixed;
+    font-size: 13px;
+    width:100%;
+    height:105%;
+    position: relative;
+
+}
+
+/*grid*/ 
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 20% 40% 40%; 
+    grid-template-rows: 20% 30% 10% 40% 5%; 
+    /*border: 1px solid black;*/
+    /*position: absolute;*/
+}
+
+/*to view grid */
+
+.grid2 div {
+    /*border: 1px solid;*/
+}
+
+
+/*spaninng*/ 
+
+.the-web, .location, .header, .footer {
+    grid-column-start: 2; 
+    grid-column-end: span 3;
+}
+
+.left {
+    grid-row-start: 3;
+    grid-row-end: span 4;
+}
+.centerleft {
+    grid-row-start: ;
+}
+
+/*text*/ 
+
+
+
+h1{
+    color: black;
+    font-family: bc-alphapipe, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline navy;
+    font-size: 8.5vw;
+    /*text-align: right;*/
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg);
+}
+
+h2 {
+    text-decoration: underline navy;
+    font-family: bc-alphapipe, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 5.5vw;
+}
+
+h3{
+    font-family: bc-alphapipe, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 4vw;
+    text-decoration: underline navy;
+}
+h4{
+    font-family: bc-alphapipe, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5vw;
+}
+h5{
+    font-family: bc-alphapipe, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+h6{
+    margin:0;
+    line-height: 0em;
+    font-family: bc-alphapipe, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5vw;
+
+}
+
+p {
+    color: #B4B7BF;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25vw;
+}
+
+a {
+    size: 1.5vw;
+}
+/*First page-----------------------------------*/
+
+
+/*theorizing*/
+
+.theorizing {
+    grid-row-start: 1; 
+    grid-row-end: span 2;
+    margin-top: 25%;
+}
+
+/*location and place*/
+
+.location {
+    text-align: right;
+    line-height: 1em;
+    margin-right: 4em;
+    color: #B4B7BF;
+    margin-bottom: 200px;
+}
+
+
+/*second page-----------------------------------*/
+
+/*morning program*/
+
+.left{
+    margin-top: 4em;
+    text-align: right;
+    grid-row-start: 3; 
+    grid-row-end: span 5;
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg)
+
+}
+
+/*header on second page */
+
+.header {
+    grid-column-start: 2; 
+    grid-column-end: span 3;
+    margin-right: 4em;
+}
+
+.session {
+    margin-top: -9.5vw;
+    text-align: right;
+}
+
+.about {
+    text-align: left;
+    color: white;
+    margin-right: 100px;
+}
+
+.centerleft {
+    text-align: top;
+}
+
+
+.time {
+    text-align: top;
+    line-height: 1em;
+    color: white;
+}
+
+.centerright {
+    text-align: right;
+    margin-right: 4em;
+    color: white;
+}
+
+.footer {
+    size: 0.5vw;
+    color: white;
+}
+.letter-e {
+    margin-right: 2.5em;
+}
+
+.letter-t {
+    margin-left: 2.5em;
+}
+
+.the-web {
+    margin-top: 2.5em;
+}
+
+a.two:link {color:navy;}
+a.two:visited {color: black;}
+
+
+
+
